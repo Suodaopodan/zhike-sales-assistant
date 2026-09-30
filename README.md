@@ -8,15 +8,15 @@
 
 | 工作台 | 客户线索 |
 | --- | --- |
-| ![知客工作台](docs/screenshots/home.jpg) | ![客户线索](docs/screenshots/leads.jpg) |
+| <img src="docs/screenshots/home.jpg" alt="知客工作台" width="280"> | <img src="docs/screenshots/leads.jpg" alt="客户线索" width="280"> |
 
 | 课程知识库 | 公域内容工坊 |
 | --- | --- |
-| ![课程知识库](docs/screenshots/knowledge-base.jpg) | ![公域内容工坊](docs/screenshots/content-studio.jpg) |
+| <img src="docs/screenshots/knowledge-base.jpg" alt="课程知识库" width="280"> | <img src="docs/screenshots/content-studio.jpg" alt="公域内容工坊" width="280"> |
 
-| 小红书悬浮话术 |
-| --- |
-| ![小红书悬浮话术](docs/screenshots/xiaohongshu-overlay.jpg) |
+| 意向分析 | 价格咨询 | 候选话术 |
+| --- | --- | --- |
+| <img src="docs/screenshots/xiaohongshu-overlay.jpg" alt="小红书悬浮窗意向分析" width="260"> | <img src="docs/screenshots/xiaohongshu-overlay-price.jpg" alt="小红书悬浮窗价格咨询" width="260"> | <img src="docs/screenshots/xiaohongshu-overlay-replies.jpg" alt="小红书悬浮窗候选话术" width="260"> |
 
 ## 核心能力
 
@@ -89,12 +89,6 @@ app/src/main/java/com/zhike/salesassistant/
 ├── ContentStudioActivity.kt
 └── SettingsActivity.kt
 ```
-
-## 开源基础与致谢
-
-本项目基于 [Jev Chat Assistant](https://github.com/jev-chat/jev-chat-jarvis) 二次开发，沿用其 Android 聊天采集、悬浮窗和部分模型调用基础，并针对教培销售场景重构产品界面、数据模型、平台适配和合规流程。
-
-上游项目及贡献者版权归原作者所有。本仓库继续遵循 [MIT License](LICENSE)，分发时必须保留 `LICENSE` 与 `NOTICE`。本项目与上游作者不存在官方背书关系。
 
 ## 免责声明
 
