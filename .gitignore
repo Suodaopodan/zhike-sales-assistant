@@ -1,0 +1,55 @@
+# Build
+/build/
+/app/build/
+.gradle/
+*.apk
+*.ap_
+*.dex
+*.class
+local.properties
+
+# Machine-specific
+env.ps1
+gradle.properties.local
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Dev artifacts / reports (not part of the product)
+/_reports/
+/tools/jev/report/
+/tools/jev/__pycache__/
+**/__pycache__/
+*.pyc
+/accessibility-dump.txt
+/device-home.png
+/device-window.xml
+/jev-main.xml
+/xhs-chat.xml
+/xhs-thread.xml
+
+# Legacy upstream working material kept locally
+/CLAUDE.md
+/site/
+/docs/images/
+/docs/acceptance.md
+/docs/probe_spec.md
+/docs/v1.3-morning-checklist.md
+/docs/v1.3-plan.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Never commit secrets
+*.key
+secrets.*
+.env
+.env.*
+
+# Signing material never enters the repo
+*.jks
+*.keystore
+keystore.properties

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">知客 AI 销售助手</string>
+    <string name="a11y_desc_disguised">读取小红书和微信当前私信，用于识别客户需求并生成合规销售话术。不会自动发送消息。</string>
+</resources>
